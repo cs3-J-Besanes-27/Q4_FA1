@@ -1,0 +1,195 @@
+<!DOCTYPE html >
+    <html> 
+	    <head>
+		</head> 
+		    <title> 
+                Basta Gwapa
+		    </title> 
+			    <body>
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+				<center>
+                <div class="prettyem">
+				<form id="login">
+                    <div id="userLog">
+                    <legend>Sign Up </legend>
+                  </div>
+                    <label for="userName">Username:</label>
+					<input type="text" id="userName" name="userName">
+					
+					<label for="pword">Password:</label> 
+					<input type="password" id="pword" name="pword"> <br> 
+					
+					<label for="cpword"> Confirm: </label> <br> 
+					<input type="password" id="cpword" name="pword">
+                    <button class="h1" onclick="confirmPassword()" > Confirm </button> <br>
+					
+					<label for="userEmail">Email: </label> <br> 
+					<input type="email" id="email" name="email"> <br> 
+					
+					<label for="adress"> Adress: </label>  <br> 
+					<input type="adress" id ="adress" name="adress"> <br> 
+					
+					<label for="comments">Short  Paragraph: </label> 
+                    <textarea id="tArea" name="sparagraph" rows="4" cols="50"> </textarea>
+                    <input id="submit" type="submit" value="Submit">
+		            <input id="clear" type="reset" value="Clear">
+					
+                    </form>
+                </div>
+				</center>
+                <style>
+                 
+                  body {
+                  background-image: linear-gradient(rgb(167, 52, 233),rgb(204, 67, 142));
+                  font-family: sans-serif;
+                  margin: 0;
+                  padding: 0;
+                  background-color: hsl(273, 88%, 66%);
+                  }
+                  #userLog{
+                    font-family: "Sofia", sans-serif;
+                    font-size: 45px;
+                  }
+
+                  .prettyem {
+                   width: 50%;
+                   height: 70%;
+                   display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  min-height: 100vh;
+                  background-color: #ecacec;
+                  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                  border-radius: 3px;
+                  border-style: solid;
+                  border-color: #9911bb;
+                  border-radius: 10%;
+                  font-family: "Sofia" ,sans-serif;
+                  font-size: 20px;
+                  }
+
+
+                  #userName {
+                  width: 90%;
+                  padding: 10px;
+                  margin-bottom: 15px;
+                  border: 1px solid #ccc;
+                  border-radius: 20px;
+                  box-sizing: border-box;
+                  font-size: 16px;
+                  }
+
+                  #pword {
+                  width: 90%;
+                  padding: 10px;
+                  margin-bottom: 15px;
+                  border: 1px solid #ccc;
+                  border-radius: 20px;
+                  box-sizing: border-box;
+                  font-size: 16px;
+                  }
+
+                  #cpword {
+                  width: 90%;
+                  padding: 10px;
+                  margin-bottom: 15px;
+                  border: 1px solid #ccc;
+                  border-radius: 20px;
+                  box-sizing: border-box;
+                  font-size: 16px;
+                  }
+
+
+
+
+                  button {
+                  width: 25%;
+                  padding: 6px;
+                  margin-top: 0px;
+                  background-color: #f346dc;
+                  color: #fff;
+                  border: none;
+                  border-radius: 20px;
+                  cursor: pointer;
+                  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                  font-size: 16px;
+                  } 
+
+
+                  button:hover {
+                  background-color: #82c2ec;
+                  }        
+
+                 #email{
+                 width: 90%;
+                 margin-top: 0%;
+                 padding: 10px;
+                 margin-bottom: 15px;
+                 border: 1px solid #ccc;
+                 border-radius: 20px;
+                 box-sizing: border-box;
+                 font-size: 16px;
+                 }
+  
+                 #adress{
+                 width: 90%;
+                 padding: 10px;
+                 margin-bottom: 5px;
+                 border: 1px solid #ccc;
+                 border-radius: 20px;
+                 box-sizing: border-box;
+                 font-size: 16px;
+                 }
+                 #tArea {
+                 width: 90%;
+                 padding: 10px;
+                 margin-bottom: 15px;
+                 border: 1px solid #ccc;
+                 border-radius: 20px;
+                 box-sizing: border-box;
+                font-size: 16px;
+                 }
+                #submit{
+                width: 20%;
+                padding: 5px;
+                margin-top: 4px;
+                background-color: #f346dc;
+                color: #fff;
+                border: none;
+                border-radius: 20px;
+                cursor: pointer;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 16px;
+                }
+
+                #submit:hover{
+                background-color: #b551f8;
+                }
+               #clear{
+
+                width: 20%;
+                padding: 5px;
+                margin-top: 4px;
+                background-color: #f346dc;
+                color: #fff;
+                border: none;
+                border-radius: 20px;
+                cursor: pointer;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 16px;
+
+          }
+
+                 #clear:hover{
+                 background-color: #b551f8;
+
+ 
+
+ }
+
+                </style>
+
+                   
+				</body> 
+	</html>
